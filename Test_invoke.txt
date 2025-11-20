@@ -1,0 +1,21 @@
+echo '[{
+"id": "20d9790e-4d8e-4f50-8a00-607dd4601ea3",
+"time": "2025-11-17T13:52:03.120Z",
+"source": "testdb1",
+"subject": "<alert_log_path>",
+"data": {
+"message": "ORA-603 Testing with customization 18112025 ",
+"tailed_path": "<aler_log_path>"
+}
+},
+{
+"id": "20d9790e-4d8e-4f50-8a00-607dd4601ea3",
+"time": "2025-11-17T13:52:03.120Z",
+"source": "testdb2",
+"subject": "<aler_log_path>",
+"data": {
+"message": "ORA-604 Testing with customization 18112025 ",
+"tailed_path": "<aler_log_path>"
+}
+}
+]' | fn invoke ORAErrorAlertApp ora-error-alert-fn
