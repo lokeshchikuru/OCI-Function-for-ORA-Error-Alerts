@@ -44,6 +44,11 @@ Prepare Your Function Files
 * requirements.txt → Python dependencies.
 * func.yaml → Function metadata (runtime, entry point, memory, timeout, etc.)
 
+****Benefits & Outcomes**
+Here is the Result:
+<img width="975" height="201" alt="image" src="https://github.com/user-attachments/assets/c3cefde9-e31a-411c-98eb-c988ec779cda" />
+
+
 
 
 
